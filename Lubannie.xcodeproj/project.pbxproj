@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5241E4FF21118E8800ACFE4E /* scenes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5241E4FE21118E8800ACFE4E /* scenes.png */; };
+		5241E5062111A5DB00ACFE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5241E5042111A5DB00ACFE4E /* LaunchScreen.storyboard */; };
+		5241E5072111A5DB00ACFE4E /* LaunchScreen_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */; };
+		5263EE5021100A9100E80248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE4F21100A9100E80248 /* AppDelegate.swift */; };
+		5263EE5221100A9100E80248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE5121100A9100E80248 /* ViewController.swift */; };
+		5263EE5521100A9100E80248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5263EE5321100A9100E80248 /* Main.storyboard */; };
+		5263EE5721100A9200E80248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5263EE5621100A9200E80248 /* Assets.xcassets */; };
+		5263EE6521100A9200E80248 /* LubannieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE6421100A9200E80248 /* LubannieTests.swift */; };
+		5263EE7021100A9200E80248 /* LubannieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE6F21100A9200E80248 /* LubannieUITests.swift */; };
+		5263EE8021100B3A00E80248 /* Lubannie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE7F21100B3A00E80248 /* Lubannie+Extension.swift */; };
+		527A75F3211177B200944B91 /* sampleBigger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 527A75F2211177B200944B91 /* sampleBigger.jpeg */; };
+		527A75F521117B9200944B91 /* WaterMarkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A75F421117B9200944B91 /* WaterMarkLabel.swift */; };
+		527A75F9211185BE00944B91 /* iconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 527A75F8211185BE00944B91 /* iconLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5263EE6121100A9200E80248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5263EE4421100A9100E80248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5263EE4B21100A9100E80248;
+			remoteInfo = Lubannie;
+		};
+		5263EE6C21100A9200E80248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5263EE4421100A9100E80248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5263EE4B21100A9100E80248;
+			remoteInfo = Lubannie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5241E4FE21118E8800ACFE4E /* scenes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scenes.png; sourceTree = "<group>"; };
+		5241E5042111A5DB00ACFE4E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen_Default.png; sourceTree = "<group>"; };
+		5263EE4C21100A9100E80248 /* Lubannie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lubannie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5263EE4F21100A9100E80248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5263EE5121100A9100E80248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5263EE5421100A9100E80248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5263EE5621100A9200E80248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5263EE5B21100A9200E80248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5263EE6021100A9200E80248 /* LubannieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LubannieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5263EE6421100A9200E80248 /* LubannieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LubannieTests.swift; sourceTree = "<group>"; };
+		5263EE6621100A9200E80248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5263EE6B21100A9200E80248 /* LubannieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LubannieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5263EE6F21100A9200E80248 /* LubannieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LubannieUITests.swift; sourceTree = "<group>"; };
+		5263EE7121100A9200E80248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5263EE7F21100B3A00E80248 /* Lubannie+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lubannie+Extension.swift"; sourceTree = "<group>"; };
+		527A75F2211177B200944B91 /* sampleBigger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleBigger.jpeg; sourceTree = "<group>"; };
+		527A75F421117B9200944B91 /* WaterMarkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkLabel.swift; sourceTree = "<group>"; };
+		527A75F8211185BE00944B91 /* iconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5263EE4921100A9100E80248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE5D21100A9200E80248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE6821100A9200E80248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5263EE4321100A9100E80248 = {
+			isa = PBXGroup;
+			children = (
+				5263EE4E21100A9100E80248 /* Lubannie */,
+				5263EE6321100A9200E80248 /* LubannieTests */,
+				5263EE6E21100A9200E80248 /* LubannieUITests */,
+				5263EE4D21100A9100E80248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5263EE4D21100A9100E80248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5263EE4C21100A9100E80248 /* Lubannie.app */,
+				5263EE6021100A9200E80248 /* LubannieTests.xctest */,
+				5263EE6B21100A9200E80248 /* LubannieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5263EE4E21100A9100E80248 /* Lubannie */ = {
+			isa = PBXGroup;
+			children = (
+				5263EE4F21100A9100E80248 /* AppDelegate.swift */,
+				5263EE5121100A9100E80248 /* ViewController.swift */,
+				527A75F621117BD200944B91 /* Lubannie */,
+				5263EE5321100A9100E80248 /* Main.storyboard */,
+				5263EE5621100A9200E80248 /* Assets.xcassets */,
+				527A75F7211183B300944B91 /* Resource */,
+				5241E5042111A5DB00ACFE4E /* LaunchScreen.storyboard */,
+				5263EE5B21100A9200E80248 /* Info.plist */,
+			);
+			path = Lubannie;
+			sourceTree = "<group>";
+		};
+		5263EE6321100A9200E80248 /* LubannieTests */ = {
+			isa = PBXGroup;
+			children = (
+				5263EE6421100A9200E80248 /* LubannieTests.swift */,
+				5263EE6621100A9200E80248 /* Info.plist */,
+			);
+			path = LubannieTests;
+			sourceTree = "<group>";
+		};
+		5263EE6E21100A9200E80248 /* LubannieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5263EE6F21100A9200E80248 /* LubannieUITests.swift */,
+				5263EE7121100A9200E80248 /* Info.plist */,
+			);
+			path = LubannieUITests;
+			sourceTree = "<group>";
+		};
+		527A75F621117BD200944B91 /* Lubannie */ = {
+			isa = PBXGroup;
+			children = (
+				5263EE7F21100B3A00E80248 /* Lubannie+Extension.swift */,
+				527A75F421117B9200944B91 /* WaterMarkLabel.swift */,
+			);
+			path = Lubannie;
+			sourceTree = "<group>";
+		};
+		527A75F7211183B300944B91 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */,
+				527A75F2211177B200944B91 /* sampleBigger.jpeg */,
+				5241E4FE21118E8800ACFE4E /* scenes.png */,
+				527A75F8211185BE00944B91 /* iconLogo.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5263EE4B21100A9100E80248 /* Lubannie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5263EE7421100A9200E80248 /* Build configuration list for PBXNativeTarget "Lubannie" */;
+			buildPhases = (
+				5263EE4821100A9100E80248 /* Sources */,
+				5263EE4921100A9100E80248 /* Frameworks */,
+				5263EE4A21100A9100E80248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lubannie;
+			productName = Lubannie;
+			productReference = 5263EE4C21100A9100E80248 /* Lubannie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5263EE5F21100A9200E80248 /* LubannieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5263EE7721100A9200E80248 /* Build configuration list for PBXNativeTarget "LubannieTests" */;
+			buildPhases = (
+				5263EE5C21100A9200E80248 /* Sources */,
+				5263EE5D21100A9200E80248 /* Frameworks */,
+				5263EE5E21100A9200E80248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5263EE6221100A9200E80248 /* PBXTargetDependency */,
+			);
+			name = LubannieTests;
+			productName = LubannieTests;
+			productReference = 5263EE6021100A9200E80248 /* LubannieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5263EE6A21100A9200E80248 /* LubannieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5263EE7A21100A9200E80248 /* Build configuration list for PBXNativeTarget "LubannieUITests" */;
+			buildPhases = (
+				5263EE6721100A9200E80248 /* Sources */,
+				5263EE6821100A9200E80248 /* Frameworks */,
+				5263EE6921100A9200E80248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5263EE6D21100A9200E80248 /* PBXTargetDependency */,
+			);
+			name = LubannieUITests;
+			productName = LubannieUITests;
+			productReference = 5263EE6B21100A9200E80248 /* LubannieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5263EE4421100A9100E80248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Steven Xie";
+				TargetAttributes = {
+					5263EE4B21100A9100E80248 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5263EE5F21100A9200E80248 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5263EE4B21100A9100E80248;
+					};
+					5263EE6A21100A9200E80248 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5263EE4B21100A9100E80248;
+					};
+				};
+			};
+			buildConfigurationList = 5263EE4721100A9100E80248 /* Build configuration list for PBXProject "Lubannie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5263EE4321100A9100E80248;
+			productRefGroup = 5263EE4D21100A9100E80248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5263EE4B21100A9100E80248 /* Lubannie */,
+				5263EE5F21100A9200E80248 /* LubannieTests */,
+				5263EE6A21100A9200E80248 /* LubannieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5263EE4A21100A9100E80248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5241E4FF21118E8800ACFE4E /* scenes.png in Resources */,
+				527A75F9211185BE00944B91 /* iconLogo.png in Resources */,
+				5263EE5721100A9200E80248 /* Assets.xcassets in Resources */,
+				5241E5062111A5DB00ACFE4E /* LaunchScreen.storyboard in Resources */,
+				5241E5072111A5DB00ACFE4E /* LaunchScreen_Default.png in Resources */,
+				5263EE5521100A9100E80248 /* Main.storyboard in Resources */,
+				527A75F3211177B200944B91 /* sampleBigger.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE5E21100A9200E80248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE6921100A9200E80248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5263EE4821100A9100E80248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5263EE8021100B3A00E80248 /* Lubannie+Extension.swift in Sources */,
+				527A75F521117B9200944B91 /* WaterMarkLabel.swift in Sources */,
+				5263EE5221100A9100E80248 /* ViewController.swift in Sources */,
+				5263EE5021100A9100E80248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE5C21100A9200E80248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5263EE6521100A9200E80248 /* LubannieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5263EE6721100A9200E80248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5263EE7021100A9200E80248 /* LubannieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5263EE6221100A9200E80248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5263EE4B21100A9100E80248 /* Lubannie */;
+			targetProxy = 5263EE6121100A9200E80248 /* PBXContainerItemProxy */;
+		};
+		5263EE6D21100A9200E80248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5263EE4B21100A9100E80248 /* Lubannie */;
+			targetProxy = 5263EE6C21100A9200E80248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5263EE5321100A9100E80248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5263EE5421100A9100E80248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5263EE7221100A9200E80248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5263EE7321100A9200E80248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5263EE7521100A9200E80248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = Lubannie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.Lubannie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5263EE7621100A9200E80248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = Lubannie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.Lubannie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5263EE7821100A9200E80248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = LubannieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.LubannieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lubannie.app/Lubannie";
+			};
+			name = Debug;
+		};
+		5263EE7921100A9200E80248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = LubannieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.LubannieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lubannie.app/Lubannie";
+			};
+			name = Release;
+		};
+		5263EE7B21100A9200E80248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = LubannieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.LubannieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lubannie;
+			};
+			name = Debug;
+		};
+		5263EE7C21100A9200E80248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				INFOPLIST_FILE = LubannieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.LubannieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lubannie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5263EE4721100A9100E80248 /* Build configuration list for PBXProject "Lubannie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5263EE7221100A9200E80248 /* Debug */,
+				5263EE7321100A9200E80248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5263EE7421100A9200E80248 /* Build configuration list for PBXNativeTarget "Lubannie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5263EE7521100A9200E80248 /* Debug */,
+				5263EE7621100A9200E80248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5263EE7721100A9200E80248 /* Build configuration list for PBXNativeTarget "LubannieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5263EE7821100A9200E80248 /* Debug */,
+				5263EE7921100A9200E80248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5263EE7A21100A9200E80248 /* Build configuration list for PBXNativeTarget "LubannieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5263EE7B21100A9200E80248 /* Debug */,
+				5263EE7C21100A9200E80248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5263EE4421100A9100E80248 /* Project object */;
+}
