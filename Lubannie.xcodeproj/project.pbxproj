@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5241E4FF21118E8800ACFE4E /* scenes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5241E4FE21118E8800ACFE4E /* scenes.png */; };
 		5241E5062111A5DB00ACFE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5241E5042111A5DB00ACFE4E /* LaunchScreen.storyboard */; };
 		5241E5072111A5DB00ACFE4E /* LaunchScreen_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */; };
 		5263EE5021100A9100E80248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE4F21100A9100E80248 /* AppDelegate.swift */; };
-		5263EE5221100A9100E80248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE5121100A9100E80248 /* ViewController.swift */; };
 		5263EE5521100A9100E80248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5263EE5321100A9100E80248 /* Main.storyboard */; };
 		5263EE5721100A9200E80248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5263EE5621100A9200E80248 /* Assets.xcassets */; };
 		5263EE6521100A9200E80248 /* LubannieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE6421100A9200E80248 /* LubannieTests.swift */; };
@@ -19,7 +17,8 @@
 		5263EE8021100B3A00E80248 /* Lubannie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EE7F21100B3A00E80248 /* Lubannie+Extension.swift */; };
 		527A75F3211177B200944B91 /* sampleBigger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 527A75F2211177B200944B91 /* sampleBigger.jpeg */; };
 		527A75F521117B9200944B91 /* WaterMarkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A75F421117B9200944B91 /* WaterMarkLabel.swift */; };
-		527A75F9211185BE00944B91 /* iconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 527A75F8211185BE00944B91 /* iconLogo.png */; };
+		B0C2DC962115A09C0097A95F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C2DC952115A09C0097A95F /* TableViewController.swift */; };
+		B0C2DC982115A9440097A95F /* iconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C2DC972115A9440097A95F /* iconLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5241E4FE21118E8800ACFE4E /* scenes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scenes.png; sourceTree = "<group>"; };
 		5241E5042111A5DB00ACFE4E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen_Default.png; sourceTree = "<group>"; };
 		5263EE4C21100A9100E80248 /* Lubannie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lubannie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5263EE4F21100A9100E80248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5263EE5121100A9100E80248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5263EE5421100A9100E80248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5263EE5621100A9200E80248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5263EE5B21100A9200E80248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +55,8 @@
 		5263EE7F21100B3A00E80248 /* Lubannie+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lubannie+Extension.swift"; sourceTree = "<group>"; };
 		527A75F2211177B200944B91 /* sampleBigger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleBigger.jpeg; sourceTree = "<group>"; };
 		527A75F421117B9200944B91 /* WaterMarkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkLabel.swift; sourceTree = "<group>"; };
-		527A75F8211185BE00944B91 /* iconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLogo.png; sourceTree = "<group>"; };
+		B0C2DC952115A09C0097A95F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B0C2DC972115A9440097A95F /* iconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5263EE4F21100A9100E80248 /* AppDelegate.swift */,
-				5263EE5121100A9100E80248 /* ViewController.swift */,
+				B0C2DC952115A09C0097A95F /* TableViewController.swift */,
 				527A75F621117BD200944B91 /* Lubannie */,
 				5263EE5321100A9100E80248 /* Main.storyboard */,
 				5263EE5621100A9200E80248 /* Assets.xcassets */,
@@ -153,8 +151,7 @@
 			children = (
 				5241E5052111A5DB00ACFE4E /* LaunchScreen_Default.png */,
 				527A75F2211177B200944B91 /* sampleBigger.jpeg */,
-				5241E4FE21118E8800ACFE4E /* scenes.png */,
-				527A75F8211185BE00944B91 /* iconLogo.png */,
+				B0C2DC972115A9440097A95F /* iconLogo.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -263,11 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5241E4FF21118E8800ACFE4E /* scenes.png in Resources */,
-				527A75F9211185BE00944B91 /* iconLogo.png in Resources */,
 				5263EE5721100A9200E80248 /* Assets.xcassets in Resources */,
 				5241E5062111A5DB00ACFE4E /* LaunchScreen.storyboard in Resources */,
 				5241E5072111A5DB00ACFE4E /* LaunchScreen_Default.png in Resources */,
+				B0C2DC982115A9440097A95F /* iconLogo.png in Resources */,
 				5263EE5521100A9100E80248 /* Main.storyboard in Resources */,
 				527A75F3211177B200944B91 /* sampleBigger.jpeg in Resources */,
 			);
@@ -296,7 +292,7 @@
 			files = (
 				5263EE8021100B3A00E80248 /* Lubannie+Extension.swift in Sources */,
 				527A75F521117B9200944B91 /* WaterMarkLabel.swift in Sources */,
-				5263EE5221100A9100E80248 /* ViewController.swift in Sources */,
+				B0C2DC962115A09C0097A95F /* TableViewController.swift in Sources */,
 				5263EE5021100A9100E80248 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
