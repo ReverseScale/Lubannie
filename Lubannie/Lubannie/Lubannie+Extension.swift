@@ -108,13 +108,13 @@ extension UIImage {
     public func compressedImage() -> UIImage {
         if let imgData = UIImageJPEGRepresentation(self, 1) {
             let imgFileSize = imgData.count
-            print("origin file size: \(Double(imgFileSize) / 1024.0) Kb")
+            print("origin file size: \(ByteCountFormatter.string(fromByteCount: Int64(imgFileSize), countStyle: .binary))")
             
             if let type = SizeType.init(size: self.size) {
                 let compressSize = type.size.size
                 let resizedImage = resizeTo(size: CGSize(width: type.size.minV, height: type.size.maxV))
                 if let data = resizedImage.compressTo(size: compressSize) {
-                    print("compressed file size: \(Double(data.count) / 1024.0) Kb")
+                    print("compressed file size: \(ByteCountFormatter.string(fromByteCount: Int64(data.count), countStyle: .binary))")
                     return UIImage(data: data) ?? self
                 }
             }
@@ -129,13 +129,13 @@ extension UIImage {
     public func compressedData() -> Data? {
         if let imgData = UIImageJPEGRepresentation(self, 1) {
             let imgFileSize = imgData.count
-            print("origin file size: \(Double(imgFileSize) / 1024.0) Kb")
+            print("origin file size: \(ByteCountFormatter.string(fromByteCount: Int64(imgFileSize), countStyle: .binary))")
             
             if let type = SizeType.init(size: self.size) {
                 let compressSize = type.size.size
                 let resizedImage = resizeTo(size: CGSize(width: type.size.minV, height: type.size.maxV))
                 if let data = resizedImage.compressTo(size: compressSize) {
-                    print("compressed file size: \(Double(data.count) / 1024.0) Kb")
+                    print("compressed file size: \(ByteCountFormatter.string(fromByteCount: Int64(data.count), countStyle: .binary))")
                     return data
                 }
             }
