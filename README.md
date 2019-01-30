@@ -20,7 +20,7 @@
 
 |1.The compression |2.Cover watermark |3.Insert watermark |4.Insert picture |
 | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-8-6/37828246.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-8-6/41647889.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-8-6/66404024.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-8-6/43419669.jpg) |
+| ![klc26g.png](https://s2.ax1x.com/2019/01/30/klc26g.png) | ![klcfmj.png](https://s2.ax1x.com/2019/01/30/klcfmj.png) | ![klc47n.png](https://s2.ax1x.com/2019/01/30/klc47n.png) | ![klcIkq.png](https://s2.ax1x.com/2019/01/30/klcIkq.png) |
 | Lubannie compression | Cover watermark text | Insert watermark text | Insert picture watermark |
 
 
